@@ -2,6 +2,8 @@
 <html>
 
 <head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Micheal Jackson Tribute Page</title>
 <style>
 h1 {
 	text-align: center;
@@ -9,20 +11,22 @@ h1 {
 h3 {
 	text-align: center;
 }
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: auto;
-}
 p {
 	text-align: center;
 }
 #img-div {
+	text-align: center;
+}
+#image {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#img-caption {
+	text-align: center;
 }
 </style>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>Micheal Jackson Tribute Page</title>
 </head>
 
 <body>
@@ -31,9 +35,9 @@ p {
 	<div id="title">
 		<h1>Michael Jackson</h1>
 	</div>
-	<figure>
-		<div id="img-div">
-			<img alt="Michael Jackson's iconic lean in 'Smooth Criminal.'" src="MichealJacksonLean.jpg" />
+	<figure id="img-div">
+		<div>
+			<img id="image" alt="Michael Jackson's iconic lean in 'Smooth Criminal.'" src="https://github.com/RHaluzak/Michael-Jackson-Tribute-Page/blob/master/Michael%20Jackson%20Tribute%20Page/MichealJacksonLean.jpg?raw=true" />
 		</div>
 		<figcaption id="img-caption">Michael Jackson performing "Smooth Criminal".</figcaption>
 	</figure>
@@ -65,8 +69,8 @@ p {
 		Michael Jackson died at a mansion he was renting in the district of Los 
 		Angeles.</p>
 	</article>
-	<a href="https://www.biographyonline.net/music/michael-jackson.html">If you 
-	would like to learn more about Michael Jackson's life, please click here.</a>
+	<a id="tribute-link" href="https://www.biographyonline.net/music/michael-jackson.html" target="_blank">
+	If you would like to learn more about Michael Jackson's life, please click here.</a>
 </div>
 
 </body>
